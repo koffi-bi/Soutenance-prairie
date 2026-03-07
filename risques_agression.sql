@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : ven. 06 mars 2026 à 13:14
+-- Généré le : sam. 07 mars 2026 à 01:47
 -- Version du serveur : 8.0.31
 -- Version de PHP : 8.2.0
 
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `risques_agression` (
   `niveau_risque` varchar(20) DEFAULT NULL,
   `date_prediction` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=247 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=263 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `risques_agression`
@@ -298,7 +298,23 @@ INSERT INTO `risques_agression` (`id`, `commune`, `quartier`, `latitude`, `longi
 (243, 'Yopougon', 'ananeraie', '5.00000000', '-4.00000000', 25, 'Femme', 22, 'Samedi', 'A pied', 'Faible', 'oui', 'oui', NULL, NULL, NULL),
 (244, 'Yopougon', 'ananeraie', '5.00000000', '-4.00000000', 25, 'Femme', 22, 'Samedi', 'A pied', 'Faible', 'oui', 'oui', NULL, NULL, NULL),
 (245, 'Yopougon', 'ananeraie', '5.00000000', '-4.00000000', 22, 'Femme', 22, 'Vendredi', 'A pied', 'Moyen', 'oui', 'oui', NULL, NULL, NULL),
-(246, 'Yopougon', 'ananeraie', '5.00000000', '-4.00000000', 22, 'Femme', 22, 'Vendredi', 'A pied', 'Moyen', 'oui', 'oui', NULL, NULL, NULL);
+(246, 'Yopougon', 'ananeraie', '5.00000000', '-4.00000000', 22, 'Femme', 22, 'Vendredi', 'A pied', 'Moyen', 'oui', 'oui', NULL, NULL, NULL),
+(247, 'Abobo', 'Aboboté', '5.00000000', '-4.00000000', 17, 'Femme', 19, 'Mercredi', 'A pied', 'Moyen', 'oui', 'oui', NULL, NULL, NULL),
+(248, 'Abobo', 'Aboboté', '5.00000000', '-4.00000000', 17, 'Femme', 23, 'Mardi', 'A pied', 'Faible', 'oui', 'non', NULL, NULL, NULL),
+(249, 'Cocody', 'Angré', '5.00000000', '-3.00000000', 17, 'Femme', 22, 'Mardi', 'A pied', 'Faible', 'oui', 'oui', NULL, NULL, NULL),
+(250, 'Abobo', 'Aboboté', '5.00000000', '-4.00000000', 22, 'Femme', 22, 'Mardi', 'Moto', 'Moyen', 'non', 'oui', NULL, NULL, NULL),
+(251, 'Abobo', 'Aboboté', '5.00000000', '-4.00000000', 22, 'Femme', 22, 'Mardi', 'Moto', 'Moyen', 'non', 'oui', NULL, NULL, NULL),
+(252, 'Cocody', 'Angré', '5.00000000', '-3.00000000', 18, 'Homme', 18, 'Samedi', 'Taxi', 'Moyen', 'non', 'non', NULL, NULL, NULL),
+(253, 'Anyama', 'Angré', '0.00000000', '0.00000000', 18, 'Femme', 18, 'Lundi', 'A pied', 'Moyen', 'oui', 'oui', NULL, NULL, NULL),
+(254, 'Anyama', 'Angré', '0.00000000', '0.00000000', 18, 'Femme', 18, 'Lundi', 'A pied', 'Moyen', 'oui', 'oui', NULL, NULL, NULL),
+(255, 'Abobo', 'Aboboté', '5.00000000', '-4.00000000', 24, 'Femme', 23, 'Mardi', 'A pied', 'Moyen', 'non', 'non', NULL, NULL, NULL),
+(256, 'Yopougon', 'Angré', '5.00000000', '-4.00000000', 18, 'Femme', 22, 'Mercredi', 'A pied', 'Faible', 'oui', 'oui', NULL, NULL, NULL),
+(257, 'Plateau', 'Riviera', '5.00000000', '-4.00000000', 18, 'Homme', 16, 'Lundi', 'Taxi', 'Moyen', 'oui', 'non', NULL, NULL, NULL),
+(258, 'Cocody', 'Angré', '5.00000000', '-3.00000000', 22, 'Femme', 18, '', '', '', '', 'oui', NULL, NULL, NULL),
+(259, 'Anyama', 'Biétry', '5.00000000', '-4.00000000', 22, 'Femme', 18, 'Mercredi', 'A pied', 'Bon', 'oui', 'oui', NULL, NULL, NULL),
+(260, 'Cocody', 'Angré', '5.00000000', '-3.00000000', 18, 'Femme', 2, 'Samedi', 'A pied', 'Moyen', 'non', 'oui', NULL, NULL, NULL),
+(261, 'Abobo', 'Abobo Baoulé', '5.00000000', '-4.00000000', 22, 'Homme', 20, 'Lundi', 'Moto', 'Bon', 'non', 'non', NULL, NULL, NULL),
+(262, 'Treichville', 'Avenue 7 rue 3', '5.00000000', '-4.00000000', 22, 'Femme', 2, 'Samedi', 'Moto', 'Bon', 'oui', 'oui', NULL, NULL, NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

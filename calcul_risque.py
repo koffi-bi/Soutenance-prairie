@@ -29,13 +29,12 @@ if seule == "oui":
 # niveau de risque
 if risque >= 70:
     niveau = "RISQUE ELEVE"
-    conseil = "Evitez de rester seule dans cette zone."
+    
 elif risque >= 40:
     niveau = "RISQUE MOYEN"
     conseil = "Soyez vigilant."
 else:
     niveau = "RISQUE FAIBLE"
-    conseil = "Zone relativement sûre."
 
 print("Commune :", commune)
 print("Niveau de risque :", niveau)
